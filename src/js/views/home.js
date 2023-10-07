@@ -37,7 +37,7 @@ export const Home = () => {
                   >
                     Learn more!
                   </Link>
-                  <button className="btn btn-outline-warning">c</button>
+                  <button onClick={()=> actions.addFavorite(item)} className="btn btn-outline-warning">c</button>
                 </div>
               </div>
             );
